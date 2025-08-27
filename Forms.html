@@ -8,20 +8,25 @@
 <body>
     <h1> Creating Forms using HTML</h1>
     <form>
-        <label>Name</label>
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label>Name:</label>
         <input type = "text" id = "name"> <br><br>
-        <label>Email ID</label>
+        <label>Email ID:</label>
         <input type = "text" id = "email"><br><br>
-        <label>Contact Number(This will be hidden)</label>
+        <label>Contact Number(This will be hidden):</label>
         <input type = "password" id="contact"><br><br>
-        <label>Gender</label><br>
+        <label>Gender:</label><br>
         <input type = "radio" id = "female" name = "gender" value = "Female">Female<br>
         <input type = "radio" id = "male" name = "gender" value = "Male">Male<br><br>
+        <label>Birthday:</label>
+        <input type = "date" id = "birthday" name = "birthday"><br><br>
         <label>Favourite city</label><br>
         <input type = "checkbox" id = "city" value = "New Delhi">New Delhi<br>
         <input type = "checkbox" id = "city" value = "Banglore">Banglore<br>
         <input type = "checkbox" id = "city" value = "Mumbai">Mumbai<br><br>
         <input type = "submit">
+        </fieldset>
     </form>
 </body>
 </html>
